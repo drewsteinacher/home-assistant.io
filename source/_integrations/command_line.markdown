@@ -294,7 +294,7 @@ command_line:
 
 As **Command line** {% term integration %} is a yaml only integration, turning on extended logging needs to be done by setting the logging information in your {% term "`configuration.yaml`" %} file.
 
-Entering this example in your configuration sets the default logging to info, and for `command_line` to debug.
+Entering this example in your configuration sets the default logging to info, and for `command_line` to debug. Once done, restart Home Assistant to enable.
 
 {% raw %}
 ```yaml
